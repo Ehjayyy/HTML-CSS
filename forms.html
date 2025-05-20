@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="imag/png" href="images/pokeball.png" >
+        <title>Forms</title>
+    </head>
+
+       
+    <body>
+        <form action="index.php" methods="POST" enctype="multipart/form-data">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="ex.Diddler" minlength="6" maxlength="15" required>
+
+        <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="5" maxlength="15" required>
+        <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="diddler@gmail.com" required>
+        <br>
+
+            <label for="phone">Phone#:</label>
+            <input type="tel" id="phone" placeholder="0976-543-4567" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+            
+            <label for="bday">Birthdate:</label>
+            <input type="date" id="bday" required>
+        <br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" min="0" max="99" required>
+        <br>
+
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title" required>
+
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title" required>
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." value="Mrs." name="title" required>
+        <br>
+
+            <label for="payment">Payment:</label>
+            <select id="payment">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Gcash">Gcash</option>
+                <option value="PayMaya">PayMaya</option>
+            </select>
+        <br>
+        
+            <label for="subscribe">subscribe</label>
+            <input type="checkbox" id="subscribe">
+        <br>
+
+            <label for="comment">comment</label>
+            <textarea id="comment" row="3" cols="25"></textarea>
+
+        <br>
+
+            <label for="comment">file</label>
+            <input type="file" id="file">
+        <br>
+
+
+            <input type="Submit"><br> 
+            <input type="Reset">
+        </form> 
+    </body>
+
+</html> 

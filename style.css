@@ -1,0 +1,93 @@
+/* body{ 
+    background-color: rgb(60, 58, 67);
+}
+h1{
+    color:rgb(37, 195, 134)
+}
+
+p{
+    color:aqua
+} */
+
+/* #p1{
+    color:aqua
+}
+
+#p2{
+    color: #1bc369
+}
+
+#p3{
+    color: hsl(311, 92%, 49%)
+} */
+
+/* @font-face{
+    src:url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family: OpenSans;
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
+    font-family: Roboto;
+}
+h1{
+    font-family: OpenSans, verdana, arial;
+    font-weight: lighter;
+}
+p{
+    font-family: Roboto ,"lucida console","courier new";
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+p{
+    border-bottom: 3px solid rgb(255, 6, 6);
+    border-top: 3px dotted rgb(236, 255, 32);
+    border-left: 3px dashed rgb(42, 59, 255);
+    border-right: 3px double rgb(39, 255, 121);
+
+}
+
+h1{
+    text-shadow: 3px 3px 3px hsl(0, 100%, 52%), -3px -3px 3px hsl(255, 100%, 55%);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    box-shadow: 3px 3px 3px hsl(0, 100%, 54%), -3px -3px 3px hsl(162, 100%, 60%);
+} */
+
+/* body{
+    margin: 5px;
+}
+.box{
+    border:5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: hsl(271, 100%, 62%);
+    margin-left: auto;
+}
+#box2{
+    background-color: hsl(180, 100%, 62%);
+    margin: 20px;
+} */
+
+body{
+    border: 5px solid;
+    display: flow-root;
+}
+#image1{
+    float: left;
+    margin-right: 10px;
+}
+#image2{
+    float: right;
+    margin-left: 10px;
+}
